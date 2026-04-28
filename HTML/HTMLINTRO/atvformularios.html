@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Avaliação de satisfação do cliente</title>
+</head>
+<body>
+    <h1>Avaliação de satisfação do cliente:</h1>
+    <form action="teste_satisfacao.html" method="POST">
+      <p>
+        <label for="identificação">Nome completo:</label>
+        <input type="text" placeholder="Digite seu nome..." id="identificação">
+      </p>
+
+      <p>
+        <label for="telefone">Telefone para contato:</label>
+        <input type="text" placeholder="Digite seu número..." id="telefone">
+      </p>
+
+      <p>
+        <label for="email">E-mail para contato:</label>
+        <input type="text" placeholder="Digite seu e-mail..." id="email">
+      </p>
+
+      <p>
+        Qual das nossas unidades você frequenta?
+
+        <select>
+         <option>Unidade da Mauro Ribeiro</option>
+         <option>Unidade do Gabiroba</option>
+         <option>Unidade da Água Santa</option>
+        </select>
+
+
+      </p>
+
+
+      <p>
+        Qual o seu nível de satisfação com nosso atendimento?( Sendo 5 "Muito satisfeito!")
+      </p>
+      <p>
+
+        <input type="radio" id="nota1" name="notas">
+        <label for="nota1">1</label>
+
+        <input type="radio" id="nota2" name="notas">
+        <label for="nota2">2</label>
+
+        <input type="radio" id="nota3" name="notas">
+        <label for="nota3">3</label>
+
+        <input type="radio" id="nota4" name="notas">
+        <label for="nota4">4</label>
+
+        <input type="radio" id="nota5" name="notas">
+        <label for="nota5">5</label>
+
+      </p>
+
+      <p>
+        Você recomendaria nosso estabelecimento para novos clientes?
+      </p>
+      <p>
+
+        <input type="radio" id="baixo" name="indicacao">
+        <label for="baixo">Prefiro não recomendar...</label>
+
+        <input type="radio" id="medio" name="indicacao">
+        <label for="medio">Para alguns conhecidos.</label>
+
+        <input type="radio" id="alto" name="indicacao">
+        <label for="alto">Para todos possíveis!</label>
+
+      </p>
+       Você autoriza compartilhar sua resposta com terceiros? 
+        <input type="checkbox" id="compartilhar" name="comp">
+        <label for="compartilhar">Autorizo!</label>
+
+        <input type="checkbox" id="naocompartilhar" name="comp">
+        <label for="naocompartilhar">Não autorizo!</label>
+
+       <p>
+
+         <input type="submit" value="Enviar.">
+       </p>
+
+    </form>
+</body>
+</html>
