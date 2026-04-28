@@ -1,0 +1,36 @@
+body {
+  background-color: #eab484;
+  text-align: justify;
+}
+
+header h1 {
+  background-color : rgb(144, 84, 10);
+}
+
+a,abbr {
+    color: rgb(131, 18, 18);
+}
+
+h1,h2,h3 {
+    color:rgb(0, 0, 0);
+}
+
+h2,h3 {
+    background-color: rgb(217, 156, 82, 0.5);
+}
+
+
+p {
+    font-family: serif;
+}
+
+
+
+
+
+
+
+
+
+
+
