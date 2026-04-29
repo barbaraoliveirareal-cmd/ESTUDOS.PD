@@ -1,6 +1,11 @@
+html{
+    font-size: 20px;
+}
+
 body {
   background-color: #eab484;
   text-align: justify;
+  font-size: 20px;
 }
 
 header h1 {
@@ -24,13 +29,20 @@ p {
     font-family: serif;
 }
 
+h1{ font-size: 1.8rem;}
+h2{ font-size: 1.4rem;}
+h3{ font-size: 1.2rem;}
 
+.summary {
+    text-align: right;
+}
 
+.main p {
+    line-height: 1.5;
+}
 
-
-
-
-
-
+abbr {
+    font-variant: small-caps;
+}
 
 
