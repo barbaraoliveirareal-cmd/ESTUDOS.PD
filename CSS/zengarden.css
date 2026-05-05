@@ -8,8 +8,13 @@ body {
   font-size: 20px;
 }
 
+
 header h1 {
-  background-color : rgb(144, 84, 10);
+  color: rgb(0, 0, 0);
+  border: solid 5px rgb(144, 84, 10);
+  
+  background-image: linear-gradient(rgba(139, 91, 22, 0.8), rgba(179, 118, 20, 0.8));
+  background-size: cover; 
 }
 
 a,abbr {
@@ -45,4 +50,28 @@ abbr {
     font-variant: small-caps;
 }
 
+ul {
+    list-style: none; /* Remove bolinhas padrão */
+}
 
+li:nth-child(odd):before {
+    content: "🥰 ";
+}
+
+li:nth-child(even):before {
+    content: "🫡 ";
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: rgba(153, 93, 3, 0.832) 1px;
+    padding-right:
+}
+
+.main footer{
+    margin: 4%;
+}
